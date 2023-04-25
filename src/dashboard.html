@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.css" />
+    <link rel="stylesheet" href="/css/dashboard.css" />
+
+    <style></style>
+
+    <title>Bootstrap Example</title>
+  </head>
+  <body>
+    <!-- Header navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light border-bottom px-3"
+    >
+      <a href="index.html" class="navbar-brand">ABC</a>
+      <button
+        type="button"
+        class="navbar-toggler"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarCollapse"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto">
+          <a href="dashboard.html" class="nav-item nav-link">Log out</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Content -->
+    <section class="dashboard-content container py-5">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="mb-4">Administrative Dashboard</h2>
+
+          <!-- Tabs -->
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link active" data-bs-toggle="tab" href="#customers"
+                >Customers</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" href="#new-customer">+</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" href="#properties">Properties</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" href="#new-property">+</a>
+            </li>
+          </ul>
+
+          <!-- Tab panes -->
+          <div class="tab-content p-4">
+            <div class="tab-pane container active" id="customers">
+              <h5>Customers</h5>
+            </div>
+            <div class="tab-pane container fade" id="new-customer">
+              <h5>New Application</h5>
+            </div>
+            <div class="tab-pane container fade" id="properties">
+              <h5>Properties</h5>
+            </div>
+            <div class="tab-pane container fade" id="new-property">
+              <h5>New Property</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-light pt-4 pb-4">
+      <div class="container text-center text-md-left">
+        <div class="row text-center text-md-left">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-secondary">
+              Company Name
+            </h5>
+            <p>Here is a sample sentence, fiend. Now leave, please</p>
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-secondary">
+              Products
+            </h5>
+            <p>Here is a sample sentence, fiend. Now leave, please</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/tether.min.js"></script>
+    <script src="/js/popper.min.js"></script>
+  </body>
+</html>
